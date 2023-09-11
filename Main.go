@@ -12,6 +12,10 @@ var (
 	i int = 10
 )
 
+var (
+	a, b, c = 1, 2, "number"
+)
+
 func main() {
 	fmt.Println("Hello to the interesting world of Golang, var i is set to 10")
 	fmt.Println(i)
@@ -20,5 +24,9 @@ func main() {
 	fmt.Println("var i now set to 20")
 	fmt.Println(i)
 	// Format string representation of v alue and T ype of variable i
-	fmt.Printf("%v, %T", i, i)
+	fmt.Printf("%v, %T\n", i, i)
+
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
 }
